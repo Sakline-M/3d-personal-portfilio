@@ -11,7 +11,8 @@ import {
 import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl])
+  const [decal] = useTexture([props.imgUrl]);
+
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
@@ -33,8 +34,8 @@ const Ball = (props) => {
         />
       </mesh>
     </Float>
-  )
-}
+  );
+};
 
 const BallCanvas = ({ icon }) => {
   return (
@@ -50,7 +51,7 @@ const BallCanvas = ({ icon }) => {
 
       <Preload all />
     </Canvas>
-  )
-}
+  );
+};
 
-export default BallCanvas
+export default BallCanvas;

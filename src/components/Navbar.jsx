@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logoS, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -24,9 +24,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logoS} alt="logo" className="w-7 h-7 object-contain rounded-full" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Sakline &nbsp;{" "}
+            SM Sakin &nbsp;{" "}
             <span className="sm:block hidden">| Mern Stack Dev</span>{" "}
           </p>
         </Link>

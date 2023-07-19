@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logoS from"./logo3.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -22,6 +23,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import sale from "./company/sale.png";
+import att from "./company/att.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -31,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  logoS,
   logo,
   backend,
   creator,
@@ -53,6 +57,8 @@ export {
   typescript,
   threejs,
   meta,
+  sale,
+  att,
   shopify,
   starbucks,
   tesla,
